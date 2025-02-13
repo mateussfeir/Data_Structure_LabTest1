@@ -27,7 +27,7 @@ class StudentManager {
     }
 
     private void insertionSort (){
-        for (int i=0; i< students.size(); i++){
+        for (int i=1; i< students.size(); i++){
             Student key = students.get(i);
             int j=i-1;
             while (j >= 0 && students.get(j).idNumber > key.idNumber){
