@@ -14,7 +14,7 @@ class Student {
     // Output
     @Override
     public String toString(){
-        return ("Id: "+idNumber+" Fname: "+fname+" Lname:"+lname);
+        return "Id: "+idNumber+" Fname: "+fname+" Lname:"+lname;
     }
 }
 
